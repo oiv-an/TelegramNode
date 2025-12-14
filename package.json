@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "telegramnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Telegram bridge for n8n - captures messages and forwards them to webhooks",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["telegram", "n8n", "webhook", "bridge", "messaging"],
+  "author": "Ivan Olyanskiy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oiv-an/TelegramNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oiv-an/TelegramNode/issues"
+  },
+  "homepage": "https://github.com/oiv-an/TelegramNode#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "telegram": "^2.26.22"
+  }
+}
